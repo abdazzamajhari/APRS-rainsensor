@@ -1,5 +1,10 @@
 # APRS-rainsensor
 
+## What You Need
+1. NodeMCU ESP8266 v3
+2. Raindrop Sensor
+
+## What You Can Do First!
 1. Install Arduino
 2. Install USB Driver CH340G
 3. Install Additional Board Manager ESP8266
