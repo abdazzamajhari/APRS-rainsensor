@@ -19,6 +19,14 @@
 7. Pick "NodeMCU 1.0 (ESP-12E Module)" in Board
 8. Pick a Port 115200
 
+## Cable Connection
+Raindrop sensor to ESP8266
+```bash
+- (VCC) to 3V
+- (GND) to G
+- (DO) to A0
+```
+
 ## Configuration
 ### IP and Port Configuration
 ```bash
