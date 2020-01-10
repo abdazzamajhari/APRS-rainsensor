@@ -17,7 +17,7 @@
 5. Click OK
 6. Click Tools
 7. Pick "NodeMCU 1.0 (ESP-12E Module)" in Board
-8. Pick a Port 115200
+8. Pick Upload Speed 115200
 
 ## Cable Connection
 Raindrop sensor to ESP8266
