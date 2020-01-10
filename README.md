@@ -13,3 +13,20 @@
 6. Click Tools
 7. Pick "NodeMCU 1.0 (ESP-12E Module)" in Board
 8. Pick a Port 115200
+
+##Configuration
+
+``
+const uint16_t port = 14580; // APRS port server
+const char * host = "103.56.149.95"; // IP APRS server
+WiFiClient client; 
+delay(5000); //delay send data to server
+``
+
+``
+client.println("user SRD001 pass 21681 vers H-001 filter m/1");  // paremeter aprs id
+delay (250);
+client.print("SRD001>APB001,TCPIP*,qAC,WIDE1-1:=0614.73S&10647.99E` }e05]?]]?]??{!EMERGENCY!");     // paremeter aprs
+client.println("SRD001>APB001,TCPIP*,qAC,WIDE1-1:>HUJAN"); // paremeter aprs
+delay(10000);
+``
