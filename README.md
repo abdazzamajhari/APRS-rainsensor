@@ -1,5 +1,9 @@
 # APRS-rainsensor
 
+## Version
+1. rain.uno => version 1.0
+2. rainy.uno => version 2.0 (sending package through the server with API from header)
+
 ## What You Need
 1. NodeMCU ESP8266 v3
 2. Raindrop Sensor
