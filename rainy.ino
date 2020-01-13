@@ -4,7 +4,7 @@
 
 // Configuration API Server
 // === START ===
-const char * serverName = "https://azhamudev.com";
+const char * serverName = "https://dev.azhamudev.com/hujan.php";
 String apiKeyValue = "You_Cant&SeeMe!";
 String sensorName = "RAIN";
 String sensorLocation = "PETSEL";
