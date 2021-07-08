@@ -1,4 +1,5 @@
 # APRS-rainsensor
+Please star and fork it for my work. Thanks!
 
 ## Version
 1. rain.uno => version 1.0
